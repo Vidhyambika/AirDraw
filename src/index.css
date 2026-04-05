@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Hide scrollbar since it's a full screen canvas app */
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  touch-action: none; /* Prevent pinch zoom on mobile */
+}
+
+/* Glassmorphism utility for UI */
+.glass-panel {
+  @apply bg-white/70 dark:bg-black/70 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-lg rounded-2xl;
+}
