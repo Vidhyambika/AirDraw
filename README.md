@@ -17,7 +17,7 @@ You must run the commands inside the `airdraw` project directory. If you are cur
 
 **Step 1. Navigate to the project directory:**
 ```bash
-cd .gemini/antigravity/scratch/airdraw
+cd airdraw
 ```
 
 **Step 2. Install Dependencies:**
