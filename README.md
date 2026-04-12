@@ -2,6 +2,11 @@
 
 An interactive web application enabling users to draw on their screen using hand gestures via a webcam, powered by **React**, **Google MediaPipe**, and **HTML5 Canvas**.
 
+https://github.com/user-attachments/assets/d89e5163-1995-486c-b00c-c98c0535eb8c
+
+
+https://github.com/user-attachments/assets/ebec22c2-4582-4792-a553-1967fef05b3c
+
 ## Prerequisites
 
 Before getting started, make sure you have [Node.js](https://nodejs.org/) installed on your computer.
